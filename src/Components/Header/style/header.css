@@ -1,0 +1,16 @@
+header {
+    max-width: 1333px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-image: url('../../../img/back_header.png');
+    padding: 20px 0 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 10vh;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+}

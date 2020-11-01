@@ -1,0 +1,30 @@
+.footer_main_page {
+    width: 100%;
+    background-color: #2F2E41;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.footer_main_page a {
+    color: #fff;
+    transition: 0.3s;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer_main_page a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_main_page a:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.footer_row {
+    display: flex;
+}
