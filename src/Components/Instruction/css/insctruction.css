@@ -1,0 +1,15 @@
+.instruction {
+    max-width: 1333px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.instruction h1 {
+    padding-top: 20px;
+}
+
+.instruction .button {
+    margin: auto;
+    margin-top: 20px;
+}

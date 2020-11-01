@@ -23,6 +23,7 @@ a, a:hover, a:visited {
     text-decoration: none;
     color: rgba(47, 56, 66, 1.0);
     transition: 0.3s;
+    display: block;
 }
 
 a:hover {

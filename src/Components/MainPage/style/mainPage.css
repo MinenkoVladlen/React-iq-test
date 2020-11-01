@@ -1,0 +1,49 @@
+.main_title {
+    min-height: 90vh;
+}
+
+.main_title, .main_test {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main_container {
+    max-width: 1333px;
+    min-height: 410px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_title img , .main_test img {
+    width: 40%;
+}
+
+.main_test {
+    padding: 10vh 0;
+}
+
+.main_description {
+    width: 60%;
+    padding: 0 50px;
+    font-size: 40px;
+}
+
+.main_description .button {
+    margin: 20px 0 0 0;
+}
+
+.main_description p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.main_test:nth-child(2n) {
+    background-color: rgba(248, 206, 17, 0.32);
+}
+
+.main_test:nth-child(2n) > .main_container {
+    flex-direction: row-reverse;
+}

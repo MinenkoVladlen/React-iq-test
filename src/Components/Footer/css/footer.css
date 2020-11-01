@@ -1,0 +1,15 @@
+.footer_back {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer_back img {
+    margin: 0;
+}
+
+.footer_back img:first-child {
+    transform: rotate(50deg);
+    margin-left: -17em;
+}

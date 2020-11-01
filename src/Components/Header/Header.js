@@ -1,10 +1,11 @@
 import React from 'react';
 import './style/header.css'
+import {Link} from "react-router-dom";
 
 const Header = () => (
     <header>
-        <a href="#">Главная</a>
-        <a href="#">Инструкция</a>
+        <Link to="/">Главная</Link>
+        <Link to='/page/instruction'>Инструкция</Link>
         <a href="#">О нас</a>
         <a href="#">Результаты</a>
     </header>

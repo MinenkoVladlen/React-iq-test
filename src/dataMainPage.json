@@ -13,7 +13,8 @@
     "description": "Средний уровень IQ составляет 100. Задумывались ли вы, какой ваш IQ? Попробуйте пройти наш IQ тест онлайн и узнайте ваш уровень интелекта прямо сейчас!",
     "url_img": "./img/test_1.png",
     "class_block": "main_test",
-    "button": true
+    "button": true,
+    "link": "/page/start_instruction"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "description": "Тест интелекта представляет группа различных вопросов, целью которых является определение уровня интелекта испытуемого",
     "url_img": "./img/test_2.png",
     "class_block": "main_test",
-    "button": true
+    "button": true,
+    "link": "/page/start_instruction"
   },
   {
     "id": 3,
@@ -29,7 +31,8 @@
     "description": "Классический тест от немецкого ученного Ганса Айзенка 40 вопросов и 30 минут времени на их прохождения.",
     "url_img": "./img/test_3.png",
     "class_block": "main_test",
-    "button": true
+    "button": true,
+    "link": "/page/start_instruction"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "description": "Тест на IQ - коэффициент интелекта - один из наиболее интересных в психологии и востребованных среди самых разных респондентов.",
     "url_img": "./img/test_4.png",
     "class_block": "main_test",
-    "button": true
+    "button": true,
+    "link": "/page/start_instruction"
   },
   {
     "id": 5,
@@ -45,7 +49,8 @@
     "description": "Наш тест является модифицированным тестом Айзенка, адаптированным на русский язык и к прохождению онлайн.",
     "url_img": "../img/test_5.png",
     "class_block": "main_test",
-    "button": true
+    "button": true,
+    "link": "/page/start_instruction"
   }
 ]
 

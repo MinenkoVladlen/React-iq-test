@@ -1,0 +1,14 @@
+.main_iq_test_description {
+    max-width: 1333px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.main_iq_test_description h1, .main_iq_test_description h2, .main_iq_test_description h3 {
+    padding-top: 10px;
+}
+
+.main_iq_test_description .button {
+    margin-top: 20px;
+}

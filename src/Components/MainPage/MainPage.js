@@ -1,5 +1,8 @@
+import React from 'react';
+import {Link} from "react-router-dom";
 import './style/mainPage.css';
 import data from '../../dataMainPage.json';
+import './style/mainPage.css'
 
 const MainPage = () => {
 
@@ -12,7 +15,10 @@ const MainPage = () => {
                         {item.description}
                     </p>
                     {item.button ? <div className="button">
-                                         <a href="#">Начать</a>
+                                         <Link to={{
+                                             pathname: item.link,
+                                             props: item.id
+                                         }}>Начать</Link>
                                   </div>: ''}
                 </div>
                 <img src={item.url_img} alt="girl"/>
